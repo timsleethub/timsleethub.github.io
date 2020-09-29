@@ -324,16 +324,6 @@ a:visited {
   grid-gap: 20px;
 }
 
-@media (max-width: 480px) {
-  .intro {
-    grid-template-areas:
-    "portrait"
-    "desc";
-    grid-template-columns: auto;
-
-  }
-}
-
 .intro__portrait {
   display: grid;
   grid-area: portrait;
@@ -353,6 +343,19 @@ a:visited {
 .desc {
   font-weight: 50;
   font-size: 24px;
+}
+
+@media (max-width: 500px) {
+  .intro {
+    grid-template-areas:
+    "portrait"
+    "desc";
+    grid-template-columns: auto;
+  }
+
+  .intro__portrait {
+    justify-content: center;
+  }
 }
 
 .links {
