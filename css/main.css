@@ -374,6 +374,8 @@ a:visited {
   grid-template-columns: repeat(auto-fit, minmax(56px, 112px));
   grid-template-rows: repeat(auto-fit, 1fr);
   font-size: 16px;
+  box-sizing: content-box;
+  gap: 16px;
 }
 
 .links__github {
