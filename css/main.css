@@ -371,7 +371,7 @@ a:visited {
   list-style-type: none;
   grid-template-areas:
   "cv twitter github instagram vk";
-  grid-template-columns: 22px 50px 51px 76px 22px;
+  grid-template-columns: repeat(5, auto);
   grid-template-rows: repeat(auto-fit, 1fr);
   font-size: 16px;
   gap: 24px;
