@@ -273,6 +273,9 @@ a:visited {
   color: #3C8DC3
 }
 
+.socials li {
+  display: inline-block;
+}
 
                         /* GRID SECTION */
 
@@ -405,7 +408,7 @@ a:visited {
   padding: 0;
   display: grid;
   list-style-type: none;
-  grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
+  grid-template-columns: repeat(auto-fit, auto);
   font-size: 16px;
   gap: 24px;
   max-width: 400px;
