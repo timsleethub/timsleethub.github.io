@@ -405,11 +405,16 @@ a:visited {
   padding: 0;
   display: grid;
   list-style-type: none;
-  grid-template-columns: repeat(5, auto);
-  grid-template-rows: repeat(auto-fill, auto);
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
   font-size: 16px;
   gap: 24px;
   max-width: 400px;
+}
+
+@media (max-width: 320px) {
+  .socials {
+    gap: 16px;
+  }
 }
 
 .links__github {
