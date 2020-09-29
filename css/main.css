@@ -324,6 +324,15 @@ a:visited {
   grid-gap: 20px;
 }
 
+@media (max-width: 480px) {
+  .intro {
+    grid-template-areas:
+    "portrait"
+    "desc";
+
+  }
+}
+
 .intro__portrait {
   display: grid;
   grid-area: portrait;
