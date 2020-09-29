@@ -292,7 +292,7 @@ a:visited {
   "content"
   "footer";
   grid-template-columns: minmax(320px, 800px);
-  grid-template-rows: 0.5fr 1fr 0.5fr auto 1fr;
+  grid-template-rows: 0.4fr 1fr 0.4fr auto 1fr;
   font-family: 'Quicksand', sans-serif;
 }
 
