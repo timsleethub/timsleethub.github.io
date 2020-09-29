@@ -260,14 +260,17 @@ textarea {
 
 a {
   text-decoration: none;
+  color: #3C8DC3;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #3C8DC3
 }
 
 a:visited {
   text-decoration: none;
+  color: #3C8DC3
 }
 
 
