@@ -296,6 +296,12 @@ a:visited {
   font-family: 'Quicksand', sans-serif;
 }
 
+@media (max-width: 500px) {
+  .page {
+    grid-template-rows: 0.3fr 1fr 0.3fr auto 1fr;
+  }
+}
+
 .page__header {
   display: grid;
   grid-area: header;
