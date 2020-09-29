@@ -315,7 +315,7 @@ a:visited {
 .page__content {
   display: grid;
   grid-area: content;
-  grid-gap: 16px;
+  gap: 24px;
   grid-template-areas:
   "intro"
   "links";
