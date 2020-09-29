@@ -329,6 +329,7 @@ a:visited {
     grid-template-areas:
     "portrait"
     "desc";
+    grid-template-columns: auto;
 
   }
 }
