@@ -23,16 +23,6 @@
   color: #222222;
 }
 
-.cv-header__logo {
-  display: grid;
-}
-
-@media (max-width: 480px) {
-  .cv-header__logo {
-    justify-content: center;
-  }
-}
-
 .cv-page__content {
   grid-template-areas: none;
 }

@@ -319,12 +319,14 @@ ul {
 }
 
 .header-logo {
+  display: grid;
   font-size: 64px;
 }
 
 @media (max-width: 550px) {
   .header-logo {
     font-size: 56px;
+    justify-content: center;
   }
 }
 
