@@ -1,0 +1,26 @@
+.cv-page__content {
+  grid-template-areas: none;
+}
+
+.cv {
+  display: grid;
+  grid-template-areas:
+  "cv-desc"
+  "skills"
+  "work-exp";
+}
+
+.cv__desc {
+  display: grid;
+  grid-area: cv-desc;
+}
+
+.cv__skills {
+  display: grid;
+  grid-area: skills;
+}
+
+.cv__work-exp {
+  display: grid;
+  grid-area: work-exp;
+}
