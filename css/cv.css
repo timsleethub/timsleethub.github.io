@@ -1,3 +1,13 @@
+.cv-page {
+  grid-template-rows: 0.25fr 1fr 0.25fr auto 0.5fr
+}
+
+@media (max-width: 500px) {
+  .cv-page {
+    grid-template-rows: 0.15fr 1fr 0.15fr auto 0.4fr;
+  }
+}
+
 .cv-page__content {
   grid-template-areas: none;
 }
@@ -18,6 +28,23 @@
 .cv__skills {
   display: grid;
   grid-area: skills;
+}
+
+.skills__list {
+  display: grid;
+  grid-template-areas:
+  "skill-title skill-desc";
+  grid-template-columns: repeat(2, auto);
+}
+
+.skill__title {
+  display: grid;
+  grid-area: skill-title;
+}
+
+.skill__desc {
+  display: grid;
+  grid-area: skill-desc;
 }
 
 .cv__work-exp {
