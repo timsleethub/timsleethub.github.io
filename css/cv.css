@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 480px) {
-  .header-logo {
+  .cv-header-logo {
     justify-content: center;
   }
 }
