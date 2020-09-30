@@ -31,6 +31,7 @@ a:visited {
   "cv-desc"
   "skills"
   "work-exp";
+  gap: 24px;
 }
 
 .cv__desc {
@@ -54,35 +55,17 @@ a:visited {
   "backend-title backend-desc";
 }
 
-/*.frontend {
+.skill__desc {
   display: grid;
+  align-content: center;
 }
-
-.frontend__title {
-  display: grid;
-  grid-area: frontend-title;
-}
-
-.frontend__desc {
-  display: grid;
-  grid-area: frontend-desc;
-}
-
-.backend {
-  display: grid;
-}
-
-.backend__title {
-  display: grid;
-  grid-area: backend-title;
-}
-
-.backend__desc {
-  display: grid;
-  grid-area: backend-desc;
-} */
 
 .cv__work-exp {
   display: grid;
   grid-area: work-exp;
+}
+
+.cv__section-logo {
+  font-weight: 500;
+  font-size: 56px;
 }
