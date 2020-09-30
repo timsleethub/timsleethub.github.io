@@ -51,18 +51,29 @@
   display: grid;
   grid-area: skill;
   grid-template-areas:
-  "skill-title skill-desc";
+  "frontend-title frontend-desc"
+  "backend-title backend-desc";
   grid-template-columns: repeat(2, auto);
 }
 
-.skill__title {
+.frontend__title {
   display: grid;
-  grid-area: skill-title;
+  grid-area: frontend-title;
 }
 
 .skill__desc {
   display: grid;
-  grid-area: skill-desc;
+  grid-area: frontend-desc;
+}
+
+.backend__title {
+  display: grid;
+  grid-area: backend-title;
+}
+
+.backend__desc {
+  display: grid;
+  grid-area: backend-desc;
 }
 
 .cv__work-exp {
