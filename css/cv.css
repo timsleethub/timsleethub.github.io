@@ -8,7 +8,9 @@
   }
 }
 
-.header-logo > a a:hover a:visited {
+.cv-logo a,
+a:hover,
+a:visited {
   text-decoration: none;
   color: #222222;
 }
