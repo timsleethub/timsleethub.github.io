@@ -273,6 +273,10 @@ a:visited {
   color: #3C8DC3
 }
 
+ul {
+  padding: 0;
+}
+
                         /* GRID SECTION */
 
 
@@ -401,7 +405,6 @@ a:visited {
 }
 
 .socials {
-  padding: 0;
   display: grid;
   list-style-type: none;
   grid-template-columns: repeat(5, auto);
@@ -422,7 +425,6 @@ a:visited {
 }
 
 .github {
-  padding: 0;
   display: grid;
   list-style-type: none;
   grid-template-columns: repeat(3, auto);
@@ -439,14 +441,12 @@ a:visited {
 }
 
 .etudes__types {
-  padding: 0;
   display: grid;
   list-style-type: none;
   grid-template-columns: repeat(3, auto);
 }
 
 .etudes__links {
-  padding: 0;
   display: grid;
   list-style-type: none;
   grid-template-columns: repeat(3, auto);
