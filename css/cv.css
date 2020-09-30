@@ -8,8 +8,17 @@
   }
 }
 
-.cv-logo a,
-.cv-logo a:hover,
+.cv-logo a {
+  text-decoration: none;
+  color: #222222;
+}
+
+
+.cv-logo a:hover {
+  text-decoration: none;
+  color: #222222;
+}
+
 .cv-logo a:visited {
   text-decoration: none;
   color: #222222;
@@ -54,11 +63,10 @@
   "frontend-title frontend-desc"
   "backend-title backend-desc";
   grid-template-columns: 80px auto;
-  gap: 16px;
+  gap: 24px;
 }
 
 .skill__desc {
-  display: grid;
   align-content: center;
 }
 
@@ -73,5 +81,5 @@
 
 .cv__section-logo {
   font-weight: 500;
-  font-size: 40px;
+  font-size: 32px;
 }
