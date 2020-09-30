@@ -64,10 +64,10 @@
   "backend-title backend-desc";
   grid-template-columns: 80px auto;
   gap: 24px;
+  align-content: center;
 }
 
 .skill__desc {
-  align-content: center;
 }
 
 .cv__work-exp {
