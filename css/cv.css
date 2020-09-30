@@ -45,13 +45,16 @@ a:visited {
 
 .skills__list {
   display: grid;
+}
+
+.skill {
+  display: grid;
   grid-template-areas:
   "frontend-title frontend-desc"
   "backend-title backend-desc";
-  grid-template-columns: repeat(2, auto);
 }
 
-.frontend {
+/*.frontend {
   display: grid;
 }
 
@@ -77,7 +80,7 @@ a:visited {
 .backend__desc {
   display: grid;
   grid-area: backend-desc;
-}
+} */
 
 .cv__work-exp {
   display: grid;
