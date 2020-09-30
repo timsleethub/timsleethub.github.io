@@ -44,16 +44,13 @@
 .skills__list {
   display: grid;
   grid-template-areas:
-  "skill";
-}
-
-.skill {
-  display: grid;
-  grid-area: skill;
-  grid-template-areas:
   "frontend-title frontend-desc"
   "backend-title backend-desc";
   grid-template-columns: repeat(2, auto);
+}
+
+.frontend {
+  display: grid;
 }
 
 .frontend__title {
@@ -61,9 +58,13 @@
   grid-area: frontend-title;
 }
 
-.skill__desc {
+.frontend__desc {
   display: grid;
   grid-area: frontend-desc;
+}
+
+.backend {
+  display: grid;
 }
 
 .backend__title {
