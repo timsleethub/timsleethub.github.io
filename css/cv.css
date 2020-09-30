@@ -9,8 +9,8 @@
 }
 
 .cv-logo a,
-a:hover,
-a:visited {
+.cv-logo a:hover,
+.cv-logo a:visited {
   text-decoration: none;
   color: #222222;
 }
@@ -53,6 +53,8 @@ a:visited {
   grid-template-areas:
   "frontend-title frontend-desc"
   "backend-title backend-desc";
+  grid-template-columns: 80px auto;
+  gap: 16px;
 }
 
 .skill__desc {
@@ -65,7 +67,11 @@ a:visited {
   grid-area: work-exp;
 }
 
+.work-exp__list {
+  list-style-type: none;
+}
+
 .cv__section-logo {
   font-weight: 500;
-  font-size: 56px;
+  font-size: 40px;
 }
