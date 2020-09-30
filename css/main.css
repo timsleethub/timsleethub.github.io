@@ -273,7 +273,10 @@ a:visited {
   color: #3C8DC3
 }
 
-
+.header-logo > a a:hover a:visited {
+  text-decoration: none;
+  color: #222222;
+}
 
                         /* GRID SECTION */
 
