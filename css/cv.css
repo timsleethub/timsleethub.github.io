@@ -23,12 +23,12 @@
   color: #222222;
 }
 
-.cv-header-logo {
+.cv-header__logo {
   display: grid;
 }
 
 @media (max-width: 480px) {
-  .cv-header-logo {
+  .cv-header__logo {
     justify-content: center;
   }
 }
