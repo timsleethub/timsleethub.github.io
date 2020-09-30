@@ -61,6 +61,8 @@
 }
 
 .skill__desc {
+  display: grid;
+  align-content: center;
 }
 
 .cv__work-exp {

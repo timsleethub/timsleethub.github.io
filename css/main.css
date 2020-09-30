@@ -326,7 +326,6 @@ ul {
 @media (max-width: 550px) {
   .header-logo {
     font-size: 56px;
-    justify-content: center;
   }
 }
 
