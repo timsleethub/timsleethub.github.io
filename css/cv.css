@@ -8,9 +8,17 @@
   }
 }
 
-.header-logo a,
-  a:hover,
-  a:visited {
+.header-logo a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.a:hover {
+  text-decoration: none;
+  color: #222222;
+}
+
+.a:visited {
   text-decoration: none;
   color: #222222;
 }
@@ -55,7 +63,7 @@
   "backend-title backend-desc";
   grid-template-columns: 80px auto;
   gap: 24px;
-  align-content: center;
+
 }
 
 .skill__desc {
