@@ -58,14 +58,15 @@
   grid-template-columns: 80px auto;
   gap: 24px;
   align-items: start;
+  line-height: 24px;
 }
 
 .skill__title {
-  line-height: inherit;
+  margin: 0;
 }
 
 .skill__desc {
-  line-height: inherit;
+  margin: 0;
 }
 
 .cv__work-exp {
