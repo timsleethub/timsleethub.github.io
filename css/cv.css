@@ -57,7 +57,7 @@
   "frontend"
   "."
   "backend";
-  gap: 24px
+  gap: 8px;
 }
 
 .frontend{
@@ -90,6 +90,10 @@
 .cv__work-exp {
   display: grid;
   grid-area: work-exp;
+}
+
+.work-exp {
+  display: grid;
   gap: 24px;
 }
 
