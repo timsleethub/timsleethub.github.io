@@ -16,7 +16,6 @@
 .a:hover {
   text-decoration: none;
   color: #222222;
-  cursor: pointer;
 }
 
 .a:visited {
@@ -58,9 +57,15 @@
   "backend-title backend-desc";
   grid-template-columns: 80px auto;
   gap: 24px;
+  align-items: start;
+}
+
+.skill__title {
+  line-height: inherit;
 }
 
 .skill__desc {
+  line-height: inherit;
 }
 
 .cv__work-exp {
