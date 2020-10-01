@@ -53,14 +53,27 @@
 
 .skills__list {
   display: grid;
+  grid-template-areas:
+  "frontend"
+  "."
+  "backend";
+}
+
+.frontend{
+  display: grid;
+  grid-area: frontend;
+}
+
+.backend{
+  display: grid;
+  grid-area: backend;
 }
 
 .skill {
   display: grid;
   grid-template-areas:
-  "frontend-title frontend-desc"
-  "backend-title backend-desc";
-  grid-template-columns: 80px auto;
+  "skill-title skill-desc";
+  grid-template-columns: 104px auto;
   align-items: start;
   line-height: 24px;
 }
