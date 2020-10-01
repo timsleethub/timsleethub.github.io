@@ -55,9 +55,8 @@
   display: grid;
   grid-template-areas:
   "frontend"
-  "."
   "backend";
-  gap: 8px;
+  gap: 24px;
 }
 
 .frontend{
