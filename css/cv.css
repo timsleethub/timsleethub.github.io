@@ -16,6 +16,7 @@
 .a:hover {
   text-decoration: none;
   color: #222222;
+  cursor: pointer;
 }
 
 .a:visited {
@@ -48,7 +49,6 @@
 
 .skills__list {
   display: grid;
-  align-content: center;
 }
 
 .skill {
@@ -75,8 +75,4 @@
 .cv__section-logo {
   font-weight: 500;
   font-size: 32px;
-}
-
-.phrase--bold {
-  font-weight: bold;
 }
