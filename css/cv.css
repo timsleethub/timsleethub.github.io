@@ -59,9 +59,9 @@
   display: grid;
   grid-template-areas:
   "frontend-title frontend-desc"
+  ". ."
   "backend-title backend-desc";
   grid-template-columns: 80px auto;
-  gap: 24px;
   align-items: start;
   line-height: 24px;
 }
@@ -77,6 +77,7 @@
 .cv__work-exp {
   display: grid;
   grid-area: work-exp;
+  gap: 24px;
 }
 
 .work-exp__list {
