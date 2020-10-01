@@ -57,6 +57,7 @@
   "frontend"
   "."
   "backend";
+  gap: 24px
 }
 
 .frontend{
