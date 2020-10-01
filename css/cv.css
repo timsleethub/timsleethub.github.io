@@ -59,7 +59,6 @@
   display: grid;
   grid-template-areas:
   "frontend-title frontend-desc"
-  ". ."
   "backend-title backend-desc";
   grid-template-columns: 80px auto;
   align-items: start;
