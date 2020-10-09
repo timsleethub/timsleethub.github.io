@@ -394,7 +394,7 @@ ul {
   "socials"
   "github"
   "etudes";
-  gap: 56px;
+  gap: 40px;
 }
 
 .links-logo {
@@ -406,7 +406,7 @@ ul {
 .links__socials {
   display: grid;
   grid-area: socials;
-  gap: 24px;
+  gap: 40px;
 }
 
 .socials {
@@ -427,7 +427,7 @@ ul {
 .links__github {
   display: grid;
   grid-area: github;
-  gap: 24px;
+  gap: 40px;
 }
 
 .github {
@@ -443,7 +443,7 @@ ul {
 .links__etudes {
   display: grid;
   grid-area: etudes;
-  gap: 24px;
+  gap: 40px;
 }
 
 .etudes {
