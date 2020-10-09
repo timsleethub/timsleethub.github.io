@@ -33,12 +33,18 @@
   "cv-desc"
   "skills"
   "work-exp";
-  gap: 32px;
+  gap: 56px;
 }
 
 .cv__desc {
   display: grid;
   grid-area: cv-desc;
+  gap: 24px;
+}
+
+.cv-desc {
+  display: grid;
+  gap: 24px;
 }
 
 .cv__skills {
@@ -48,7 +54,7 @@
 
 .skills {
   display: grid;
-  gap: 24px;
+  gap: 32px;
 }
 
 .skills__list {
@@ -93,7 +99,7 @@
 
 .work-exp {
   display: grid;
-  gap: 24px;
+  gap: 32px;
 }
 
 .work-exp__list {
