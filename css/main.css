@@ -303,7 +303,7 @@ ul {
   "content"
   "footer";
   grid-template-columns: minmax(300px, 800px);
-  grid-template-rows: 0.4fr 1fr 0.4fr auto 0.5fr;
+  grid-template-rows: 0.4fr 1fr 0.4fr auto 1fr;
   font-family: 'Quicksand', sans-serif;
   gap: 40px;
 }
