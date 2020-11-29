@@ -1,0 +1,142 @@
+.bookstore-root {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 128px auto 128px;
+  grid-template-areas:
+    "header"
+    "body"
+    "footer";
+}
+
+.header {
+  display: grid;
+  grid-area: header;
+}
+
+.logo {
+  display: grid;
+  font-size: 64px;
+  justify-content: center;
+}
+
+.bookstore {
+  display: grid;
+  grid-area: body;
+  grid-template-areas:
+  "booklist sidebar";
+  grid-template-columns: 1fr 160px;
+  grid-template-rows: auto;
+}
+
+.bookstore__booklist {
+  display: grid;
+  grid-area: booklist;
+
+}
+
+.booklist {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 224px);
+  gap: 40px;
+  justify-content: center;
+}
+
+.book {
+  display: grid;
+  grid-template-areas:
+    " poster "
+    " title "
+    " author "
+    " price ";
+  grid-template-columns: 190px;
+  grid-template-rows: 200px 24px 24px 56px;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  grid-gap: 8px;
+  padding: 16px;
+}
+
+.book__poster {
+  display: grid;
+  grid-area: poster;
+  justify-content: center;
+}
+
+.book__title {
+  display: grid;
+  grid-area: title;
+}
+
+.book__author {
+  display: grid;
+  grid-area: author;
+}
+
+.book__price-usd {
+  display: grid;
+  grid-area: price;
+  justify-content: start;
+  align-content: end;
+
+}
+
+.book__buy-button {
+  display: grid;
+  grid-area: price;
+  justify-content: end;
+  align-content: end;
+}
+
+.bookstore__sidebar {
+  display: grid;
+  grid-area: sidebar;
+  width: 160px;
+  height: 370px;
+  position: sticky;
+  top: 0;
+}
+
+.sidebar {
+  display: grid;
+  gap: 24px;
+}
+
+.sidebar__cart {
+  display: grid;
+  width: 160px;
+  height: 160px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.cart {
+  display: grid;
+  gap: 16px;
+  justify-content: center;
+}
+
+.sidebar__genres {
+  display: grid;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  width: 160px;
+  height: 180px;
+
+}
+
+.genres__logo {
+  display: grid;
+  justify-content: center;
+}
+
+.footer {
+  display: grid;
+  grid-area: footer;
+  gap: 40px;
+}
+
+.footer__logo {
+  display: grid;
+  align-content: end;
+  justify-content: center;
+}

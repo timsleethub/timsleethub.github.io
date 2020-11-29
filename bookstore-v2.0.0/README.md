@@ -1,0 +1,2 @@
+Added:
+Filtering by genre
