@@ -2,19 +2,19 @@
 
 ## Getting started
 
-* [Usage](usage.md) — Overview of the project contents.
-* [FAQ](faq.md) — Frequently asked questions along with their answers.
+* [Usage](doc/usage.md) — Overview of the project contents.
+* [FAQ](doc/faq.md) — Frequently asked questions along with their answers.
 
 ## HTML5 Boilerplate core
 
-* [HTML](html.md) — Guide to the default HTML.
-* [CSS](css.md) — Guide to the default CSS.
-* [JavaScript](js.md) — Guide to the default JavaScript.
-* [Everything else](misc.md).
+* [HTML](doc/html.md) — Guide to the default HTML.
+* [CSS](doc/css.md) — Guide to the default CSS.
+* [JavaScript](doc/js.md) — Guide to the default JavaScript.
+* [Everything else](doc/misc.md).
 
 ## Development
 
-* [Extending and customizing HTML5 Boilerplate](extend.md) — Going further with
+* [Extending and customizing HTML5 Boilerplate](doc/extend.md) — Going further with
   the boilerplate.
 
 ## Related projects

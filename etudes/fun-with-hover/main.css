@@ -1,0 +1,113 @@
+.wrapper {
+  display: grid;
+  grid-template-areas:
+  'color-change size-change'
+  'gradient-change moving-child';
+  justify-content: space-around;
+  margin: 100px auto;
+  width: 800px;
+  gap: 100px;
+}
+
+.color-change {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #D9AFD9;
+  transition: all .3s linear;
+}
+
+.color-change__text {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.color-change:hover {
+  background-color: #97D9E1;
+}
+
+.size-change {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+  transition: all .3s linear;
+}
+
+.size-change__text {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.size-change:hover {
+  display: block;
+  transform: scale(1.5, 1.5);
+}
+
+.gradient-change {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+  background: linear-gradient(270deg, #dfbf3e, #f088e7);
+  background-size: 400% 400%;
+}
+
+.gradient-change__text {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.gradient-change:hover {
+  animation: AnimationName 3.5s ease infinite;
+}
+
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+.moving-child {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+  position: relative;
+}
+
+.moving-child__child {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  z-index: 2;
+}
+
+.moving-child:hover .moving-child__child {
+  animation: movingChild 3s linear infinite;
+}
+
+@keyframes movingChild {
+  0%{left: 0; top: 0;}
+  25%{left: 150px; top: 0;}
+  50%{left: 150px; top: 150px;}
+  75%{left: 0; top: 150px;}
+  100%{left: 0; top: 0}
+}
+
+.moving-child__text {
+  position: absolute;
+  top: 45%;
+  display: block;
+  width: 100%;
+  z-index: 1;
+}
+
