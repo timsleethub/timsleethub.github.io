@@ -457,6 +457,7 @@ ul {
 
 .etudes__links {
   display: grid;
+  gap: 32px;
   list-style-type: none;
   grid-template-columns: repeat(3, auto);
 }
