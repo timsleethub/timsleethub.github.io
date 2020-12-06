@@ -66,7 +66,7 @@ h1 {
 
 
 .fixed-width {
-  min-width: 136px;
+  min-width: 200px;
 }
 
 .big-text{
@@ -88,8 +88,31 @@ h1 {
           'days hours'
           'minutes seconds'
   ;
-    grid-template-columns: repeat(auto-fill, 100px);
+    grid-template-columns: repeat(auto-fill, 200px);
     grid-template-rows: repeat(auto-fill, 200px);
     gap: 60px;
+
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .countdown-timer__title {
+    font-size: 24px;
+  }
+
+  .big-text {
+    font-size: 80px;
+  }
+  .timer {
+    display: grid;
+    grid-template-areas:
+          'days'
+          'hours'
+          'minutes'
+          'seconds'
+  ;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-template-rows: repeat(auto-fill, 200px);
+    gap: 60px
   }
 }

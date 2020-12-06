@@ -1,5 +1,5 @@
 let year = 2021;
-const newYears = '1 January' + year;
+const newYears = new Date(year + "-01-01T00:00:00Z").getTime();
 
 const daysEl = document.getElementById('days');
 const hoursEl = document.getElementById('hours');
@@ -8,10 +8,9 @@ const secondsEl = document.getElementById('seconds');
 
 
 function countdown() {
-  const newYearsDate = new Date(newYears);
   const currentDate = new Date();
 
-  const distance = newYearsDate - currentDate;
+  const distance = newYears - currentDate;
 
   if (distance <= 0) {
     year = year++;
