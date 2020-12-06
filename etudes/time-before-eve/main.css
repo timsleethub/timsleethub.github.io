@@ -28,6 +28,10 @@ h1 {
   font-size: 32px;
 }
 
+.title {
+  text-align: center;
+}
+
 .countdown-timer__timer {
   display: grid;
   justify-content: center;
