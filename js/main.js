@@ -10,7 +10,7 @@ function textAutoWriter() {
 // while(index < logoTitle.length) {
 
 // }
-let textWriter = setInterval(textAutoWriter, 50);
+let textWriter = setInterval(textAutoWriter, 55);
 
 textWriter();
 
