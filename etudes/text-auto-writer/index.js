@@ -7,6 +7,7 @@ function textAutoWriter() {
 
 }
 
-const interval = setInterval(textAutoWriter, 100);
+let myInterval = setInterval(textAutoWriter, 100);
+myInterval();
 
-clearInterval(interval);
+clearInterval(myInterval);
