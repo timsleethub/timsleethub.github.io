@@ -161,7 +161,7 @@ textarea {
 
 .clearfix::before,
 .clearfix::after {
-  content: " ";
+  content: ' ';
   display: table;
 }
 
@@ -203,23 +203,21 @@ textarea {
     text-shadow: none !important;
   }
 
-
-
   a[href]::after {
-    content: " (" attr(href) ")";
+    content: ' (' attr(href) ')';
   }
 
   abbr[title]::after {
-    content: " (" attr(title) ")";
+    content: ' (' attr(title) ')';
   }
 
   /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
+  a[href^='#']::after,
+  a[href^='javascript:']::after {
+    content: '';
   }
 
   pre {
@@ -260,17 +258,17 @@ textarea {
 
 a {
   text-decoration: none;
-  color: #3C8DC3;
+  color: #3c8dc3;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #3C8DC3
+  color: #3c8dc3;
 }
 
 a:visited {
   text-decoration: none;
-  color: #3C8DC3
+  color: #3c8dc3;
 }
 
 ul {
@@ -278,9 +276,7 @@ ul {
   margin: 0;
 }
 
-
-                        /* GRID SECTION */
-
+/* GRID SECTION */
 
 .container {
   display: grid;
@@ -297,11 +293,11 @@ ul {
 .page {
   display: grid;
   grid-template-areas:
-  "."
-  "header"
-  "."
-  "content"
-  "footer";
+    '.'
+    'header'
+    '.'
+    'content'
+    'footer';
   grid-template-columns: minmax(300px, 800px);
   grid-template-rows: 0.4fr 1fr 0.4fr auto 1fr;
   font-family: 'Quicksand', sans-serif;
@@ -336,15 +332,14 @@ ul {
   grid-area: content;
   gap: 40px;
   grid-template-areas:
-  "intro"
-  "links";
+    'intro'
+    'links';
 }
 
 .intro {
   display: grid;
   grid-area: intro;
-  grid-template-areas:
-  "portrait desc";
+  grid-template-areas: 'portrait desc';
   grid-template-columns: 240px auto;
   grid-gap: 20px;
 }
@@ -373,8 +368,8 @@ ul {
 @media (max-width: 500px) {
   .intro {
     grid-template-areas:
-    "portrait"
-    "desc";
+      'portrait'
+      'desc';
     grid-template-columns: auto;
   }
 
@@ -391,9 +386,8 @@ ul {
   display: grid;
   grid-area: links;
   grid-template-areas:
-  "socials"
-  "github"
-  "etudes";
+    'socials'
+    'etudes';
   gap: 40px;
 }
 
@@ -423,22 +417,6 @@ ul {
     gap: 16px;
   }
 }
-
-.links__github {
-  display: grid;
-  grid-area: github;
-  gap: 40px;
-}
-
-.github {
-  display: grid;
-  list-style-type: none;
-  grid-template-columns: repeat(3, auto);
-  font-size: 16px;
-  gap: 16px;
-}
-
-
 
 .links__etudes {
   display: grid;
