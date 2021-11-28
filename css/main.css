@@ -424,9 +424,6 @@ ul {
   gap: 40px;
 }
 
-.etudes {
-}
-
 .etudes__types {
   display: grid;
   list-style-type: none;
